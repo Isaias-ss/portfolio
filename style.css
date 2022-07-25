@@ -1,0 +1,128 @@
+.main{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+}
+
+.info_pessoal{
+    width: 30%;
+    padding-left: 1em;
+    background-color: #08003B;
+    height: 160vh;
+}
+
+.info_pessoal-img{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 2.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.info_pessoal-titulo{
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.info_pessoal-subtitulo{
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.info_pessoal-endereco{
+    color: white;
+    margin: 0 1em;
+}
+
+.info_pessoal-telefone{
+    text-decoration: none;
+    color: white;
+    margin-left: 1em;
+}
+
+.info_pessoal-email{
+    text-decoration: none;
+    color: white;
+    margin-left: 1em;
+}
+
+/* ------------------------------------------INFORMAÇÕES /\ -----------------------------------*/
+
+/*------------------------------------ FORMAÇÃO E EXPERIENCIAS \/ ------------------------------*/
+
+.info_curriculo{
+    width: 100%;
+    padding: 1em;
+    background: #cccccc;
+}
+
+.info_curriculo-nome{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 1em;
+    margin-left: 5em;
+}
+
+.info_curriculo-formacao{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 1em;
+    margin-left: 5em;
+}
+
+.info_curriculo-titulo{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1em 0;
+    text-decoration: underline;
+}
+
+.item_formacao{
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.item_descricao{
+    margin-left: 2.2em;
+    margin-bottom: 2em;
+    font-size: 15px;
+}
+
+/* ------------------------------------------FORMAÇÃO E EXPERIENCIAS /\ ---------------------------*/
+
+/*-------------------------------------------- Portifólio \/ -------------------------------------*/
+
+.info_curriculo-portifolio{
+    display: flex;
+}
+
+.info_curriculo_portifolio-item{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1em;
+    width: 50%;
+}
+
+.info_curriculo_portifolio{
+    text-align: center;
+}
+
+.info_curriculo_portifolio-titulo{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info_curriculo_portifolio-img{
+    height: 35vh;
+    margin: 1em
+}
